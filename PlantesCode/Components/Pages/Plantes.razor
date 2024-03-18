@@ -1,0 +1,49 @@
+﻿@page "/plantes";
+@using System.Text.Json;
+@inject MesPlantes plantes;
+
+<PageTitle>Plantes</PageTitle>
+
+@if (plantes.Data == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Common name</th>
+                <th scope="col">Scientific name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var value in plantes.Data)
+            {
+                <tr>
+                    <th scope="row">@value.ID</th>
+                    <td>@value.Common_Name</td>
+                    <td>@value.Scientific_Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    protected async override Task OnInitializedAsync()
+    {
+        await GetData();
+
+    }
+
+    private async Task GetData()
+    {
+        var client = new HttpClient();
+        var request = new HttpRequestMessage(HttpMethod.Get, "https://trefle.io/api/v1/plants?token=3n1NrNVnKIHT6Wo7YkcVturVj65CiQ3tUElZETZOByo");
+        var response = await client.SendAsync(request);
+        response.EnsureSuccessStatusCode();
+        plantes = new MesPlantes().DeserializeUsingGenericSystemTextJson(await response.Content.ReadAsStringAsync());
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Plantes.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Plantes.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Plantes.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Plantes.props",
+      "PackagePath": "build\\Plantes.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Plantes.props",
+      "PackagePath": "buildMultiTargeting\\Plantes.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Plantes.props",
+      "PackagePath": "buildTransitive\\Plantes.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
