@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yyHg8UON0bzmk5u2TeGeHvHooSUl2TeS+WN8SozyDWc=",
+  "Hash": "L3ON9abR3otGotvDnqxwIOYxqnVUUUVgkL4FYZBvgk0=",
   "Source": "Plantes",
   "BasePath": "_content/Plantes",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Plantes\\wwwroot",
       "Source": "Plantes",
-      "ContentRoot": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\wwwroot\\",
       "BasePath": "_content/Plantes",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Plantes.styles.css",
+      "Identity": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Plantes.styles.css",
       "SourceId": "Plantes",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Plantes",
       "RelativePath": "Plantes.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Plantes.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Plantes.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Plantes.bundle.scp.css",
+      "Identity": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Plantes.bundle.scp.css",
       "SourceId": "Plantes",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Plantes",
       "RelativePath": "Plantes.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Plantes.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Plantes.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\wwwroot\\app.css",
       "SourceId": "Plantes",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\wwwroot\\",
       "BasePath": "_content/Plantes",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "Plantes",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\wwwroot\\",
       "BasePath": "_content/Plantes",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Plantes",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\wwwroot\\",
       "BasePath": "_content/Plantes",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\wwwroot\\favicon.png",
       "SourceId": "Plantes",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\wwwroot\\",
       "BasePath": "_content/Plantes",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

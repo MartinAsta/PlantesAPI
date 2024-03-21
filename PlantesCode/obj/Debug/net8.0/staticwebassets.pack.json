@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Plantes.bundle.scp.css",
+      "Id": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Plantes.bundle.scp.css",
       "PackagePath": "staticwebassets\\Plantes.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\wwwroot\\app.css",
+      "Id": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

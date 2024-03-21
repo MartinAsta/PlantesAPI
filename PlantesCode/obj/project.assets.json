@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\Plantes.csproj",
+      "projectUniqueName": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\Plantes.csproj",
       "projectName": "Plantes",
-      "projectPath": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\Plantes.csproj",
+      "projectPath": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\Plantes.csproj",
       "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesCode\\obj\\",
+      "outputPath": "C:\\Users\\Martin\\Documents\\Cours2e\\5IPO1\\PlantesAPI\\PlantesCode\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
