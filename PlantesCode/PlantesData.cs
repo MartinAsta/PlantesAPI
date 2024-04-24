@@ -1,5 +1,6 @@
 ﻿namespace Plantes
 {
+    using System.Text.Json;
     public class PlantesData
     {
         public int? ID { get; set; }
@@ -18,5 +19,11 @@
         public string? Genus { get; set; }
         public string? Family { get; set; }
         public PlantesDataLink? Links { get; set; }
+
+        public PlantesData? DeserializeFav(string json)
+        {
+            var planteInfos = JsonSerializer.Deserialize<PlantesData>(json, new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
+            return planteInfos;
+        }
     }
 }

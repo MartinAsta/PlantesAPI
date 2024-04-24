@@ -24,10 +24,11 @@ app.UseAntiforgery();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
-app.Run();
-
 static void ConfigureServices(IServiceCollection services)
 {
     services.AddRazorComponents().AddInteractiveServerComponents();
     services.AddSingleton<MesPlantes>();
+    services.AddSingleton<PlantesData>();
 }
+
+app.Run();

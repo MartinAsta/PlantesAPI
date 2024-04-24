@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plantes", "Plantes.csproj", "{E237D287-1FF3-4551-9F45-AA143F1EFE61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantesTest", "..\PlantesTest\PlantesTest.csproj", "{CAED6657-7E4C-4BEC-A41D-319F1BC74F8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantesTest", "..\PlantesTest\PlantesTest.csproj", "{CAED6657-7E4C-4BEC-A41D-319F1BC74F8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTest", "..\IntegrationTest\IntegrationTest.csproj", "{3338D289-D115-41DB-B2AC-0978CF01684B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CAED6657-7E4C-4BEC-A41D-319F1BC74F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAED6657-7E4C-4BEC-A41D-319F1BC74F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAED6657-7E4C-4BEC-A41D-319F1BC74F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3338D289-D115-41DB-B2AC-0978CF01684B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3338D289-D115-41DB-B2AC-0978CF01684B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3338D289-D115-41DB-B2AC-0978CF01684B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3338D289-D115-41DB-B2AC-0978CF01684B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

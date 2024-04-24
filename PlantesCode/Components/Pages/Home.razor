@@ -1,7 +1,17 @@
 ﻿@page "/"
+@rendermode InteractiveServer
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>@specialGreeting</h1>
 
-Welcome to your new app.
+<button @onclick="SpecialHello">Are you Martin ?</button>
+
+
+@code{
+    private string specialGreeting = "Hello.";
+
+    private void SpecialHello(){
+        specialGreeting = "Hello Martin.";
+    }
+}

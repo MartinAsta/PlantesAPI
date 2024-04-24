@@ -1,8 +1,21 @@
 ﻿@page "/plantes";
 @using System.Text.Json;
 @inject MesPlantes plantes;
+@inject PlantesData favPlant;
+@rendermode InteractiveServer
+@inject IJSRuntime JS
 
 <PageTitle>Plantes</PageTitle>
+
+
+@if (favPlant.Common_Name != null)
+{
+    <p>Your favourite plant is the @favPlant.Common_Name</p>
+}
+else
+{
+    <button @onclick="GetFav">Display favourite plant</button>
+}
 
 @if (plantes.Data == null)
 {
@@ -25,6 +38,7 @@ else
                     <th scope="row">@value.ID</th>
                     <td>@value.Common_Name</td>
                     <td>@value.Scientific_Name</td>
+                    <td><button @onclick="() => SaveData(value.ID)">Declare as your favourite plant</button></td>
                 </tr>
             }
         </tbody>
@@ -35,7 +49,6 @@ else
     protected async override Task OnInitializedAsync()
     {
         await GetData();
-
     }
 
     private async Task GetData()
@@ -45,5 +58,24 @@ else
         var response = await client.SendAsync(request);
         response.EnsureSuccessStatusCode();
         plantes = new MesPlantes().DeserializeUsingGenericSystemTextJson(await response.Content.ReadAsStringAsync());
+    }
+
+    public async Task SaveData(int? id)
+    {
+        foreach (var value in plantes.Data)
+        {
+            if(id == value.ID)
+            {
+                var json = JsonSerializer.Serialize(value);
+                await JS.InvokeVoidAsync("localStorage.setItem", "plant", json);
+                await GetFav();
+            }
+        }
+    }
+
+    public async Task GetFav()
+    {
+        var newFavPlant = await JS.InvokeAsync<string>("localStorage.getItem", "plant");
+        favPlant = new PlantesData().DeserializeFav(newFavPlant);
     }
 }
